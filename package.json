@@ -1,0 +1,30 @@
+{
+  "name": "stack-trace-beautifier",
+  "version": "1.0.0",
+  "description": "A library for beautifying [stacktracejs/error-stack-parser](https://github.com/stacktracejs/error-stack-parser) stack-traces from minified client-side JavaScript using source-maps on the back-end.",
+  "main": "lib/index.js",
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfzebra/stack-trace-beautifier.git"
+  },
+  "keywords": [],
+  "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/halfzebra/stack-trace-beautifier/issues"
+  },
+  "homepage": "https://github.com/halfzebra/stack-trace-beautifier#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "source-map": "^0.7.0"
+  },
+  "devDependencies": {
+    "jest": "^22.3.0"
+  }
+}
